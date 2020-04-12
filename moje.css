@@ -31,7 +31,7 @@ body {
   font-size: 98px;
   color: whitesmoke;
   /*background-color: rgba(0, 0, 0, 0.7);*/
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
 
 }
 
@@ -72,7 +72,8 @@ ol>li:before {
 
 .bg-mrdka {
   background-color: rgba(0, 0, 0, 0.7);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
 }
 
 .menu-icon:hover {
@@ -105,7 +106,7 @@ ol>li:before {
 
 .velikost-curaka {
   width: auto;
-  height: 616px;
+  height: 740px;
 }
 
 .btn-rival {
