@@ -42,7 +42,6 @@ body {
 
 .pravidla-card {
   opacity: .3;
-
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -111,10 +110,23 @@ ol>li:before {
 
 .btn-rival {
   color: #fff;
-  background-color: #0b0b64;
-  border-color: #0b0b64;
+  background-color: #000000;
+  border-color: #ffffff;
+  box-shadow: rgba(255, 255, 255, ) !important;
 }
 
 .border-black {
   border-color: #000000 !important;
+}
+
+.indicators-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.carousel-inner {
+  overflow: auto !important;
 }
