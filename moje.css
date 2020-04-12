@@ -9,7 +9,7 @@
   height: 100%;
 }*/
 body {
-  background: url("night.jpg") no-repeat center center fixed;
+  background: url("pozadia.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,14 +70,9 @@ ol>li:before {
   content: counter(item) ".";
 }
 
-.bg-mrdka1 {
-  background-color: rgba(0, 0, 0, 0.3);
+.bg-mrdka {
+  background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.8);
-}
-
-.bg-mrdka2 {
-  background: rgb(166, 159, 159);
-  background: linear-gradient(0deg, rgba(166, 159, 159, 0.8995973389355743) 0%, rgba(0, 0, 0, 0.3981967787114846) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 .menu-icon:hover {
@@ -121,16 +116,4 @@ ol>li:before {
 
 .border-black {
   border-color: #000000 !important;
-}
-
-.vertical50 {
-  margin-top: 50%;
-}
-
-.content_center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 150px;
 }
