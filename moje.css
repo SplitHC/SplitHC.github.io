@@ -1,0 +1,136 @@
+/* tu mas example len, opacity pridas aj bootstrapom trieda opacity-90 napr. */
+.obrazok-tranparencia {
+  opacity: 1 !important;
+}
+
+/*body {
+  background-image: url('pozadia.jpg');
+  width: 100%;
+  height: 100%;
+}*/
+body {
+  background: url("night.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Candara;
+  src: url(Candara.ttf);
+}
+
+@font-face {
+  font-family: Mohave;
+  src: url(Mohave-Regular.otf)
+}
+
+.nadpisy {
+  font-family: Mohave;
+  font-size: 98px;
+  color: whitesmoke;
+  /*background-color: rgba(0, 0, 0, 0.7);*/
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+.candara {
+  font-family: Candara;
+  font-size: 20px
+}
+
+.pravidla-card {
+  opacity: .3;
+
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+ol>li {
+  margin: 0;
+  padding: 0 0 0 2.5em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+ol>li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 1.2em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
+.bg-mrdka1 {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.bg-mrdka2 {
+  background: rgb(166, 159, 159);
+  background: linear-gradient(0deg, rgba(166, 159, 159, 0.8995973389355743) 0%, rgba(0, 0, 0, 0.3981967787114846) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.menu-icon:hover {
+  opacity: 1 !important;
+  color: white;
+}
+
+.menu-icon {
+  opacity: 1 !important;
+}
+
+@font-face {
+  font-family: "Diploma";
+  src: url('diploma.ttf');
+}
+
+.bg-menu-nav {
+  background-color: rgba(0, 0, 0);
+}
+
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+}
+
+.velikost-curaka {
+  width: auto;
+  height: 616px;
+}
+
+.btn-rival {
+  color: #fff;
+  background-color: #0b0b64;
+  border-color: #0b0b64;
+}
+
+.border-black {
+  border-color: #000000 !important;
+}
+
+.vertical50 {
+  margin-top: 50%;
+}
+
+.content_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 150px;
+}
