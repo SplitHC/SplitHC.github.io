@@ -156,9 +156,7 @@ ol>li:before {
   animation: float 6s ease-in-out infinite;
   box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
   overflow: hidden;
+  width: 38%;
+  height: auto;
 
-  img {
-    width: 38%;
-    height: auto;
-  }
 }
