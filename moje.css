@@ -167,3 +167,30 @@ ol>li:before {
   /*filter: drop-shadow(5px 5px 5px #222);*/
 
 }
+
+.ikonecky {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.pikonecky {
+  font-size: 12px;
+  font-weight: light;
+  color: #333333;
+}
+
+span a {
+  font-size: 18px;
+  color: #cccccc;
+  opacity: 0.7;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.4s ease-in-out;
+
+  /*a:hover {
+    color: #ffffff;
+  }*/
+}
