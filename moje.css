@@ -56,7 +56,7 @@ ol {
   counter-reset: item;
 }
 
-ol>li {
+ol > li {
   margin: 0;
   padding: 0 0 0 2.5em;
   text-indent: -2em;
@@ -64,7 +64,7 @@ ol>li {
   counter-increment: item;
 }
 
-ol>li:before {
+ol > li:before {
   display: inline-block;
   width: 1em;
   padding-right: 1.2em;
@@ -130,8 +130,8 @@ ol>li:before {
 }
 
 .indicators-bot {
-  position: fixed;
-  top: 660;
+  position: relative;
+  top: 550;
   right: 0;
   left: 0;
   z-index: 0;
