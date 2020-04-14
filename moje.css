@@ -56,7 +56,7 @@ ol {
   counter-reset: item;
 }
 
-ol > li {
+ol>li {
   margin: 0;
   padding: 0 0 0 2.5em;
   text-indent: -2em;
@@ -64,7 +64,7 @@ ol > li {
   counter-increment: item;
 }
 
-ol > li:before {
+ol>li:before {
   display: inline-block;
   width: 1em;
   padding-right: 1.2em;
@@ -165,25 +165,25 @@ ol > li:before {
 .floatlogo {
   border-radius: 50%;
   transform: translatey(0px);
-  /*animation: float 6s ease-in-out infinite;*/
+  /*animation: float 6s ease-in-out infinite;
   /*box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);*/
   overflow: hidden;
   width: 38%;
   height: auto;
-  /*filter: drop-shadow(5px 5px 5px #222);*/
+  filter: drop-shadow(5px 5px 5px #222);
 }
+
 .blur-me {
-  transition: filter 1s, transform 2s ease-in-out;
+  transition: filter 2s, transform 1s ease-in-out;
   filter: blur(1px);
-  transform: scale(0.9);
+  transform: scale(0.8);
 }
 
 /* The Transformation */
 .blur-me:hover {
   filter: blur(0);
-  transform: scale(1.1);
+  transform: scale(1);
 }
-/* filter: blur(1px) grayscale(20%);*/
 
 .ikonecky {
   width: 100%;
@@ -253,7 +253,7 @@ span a {
 .zoom {
   padding: 50px;
   background-color: transparent;
-  transition: transform 2s;
+  transition: transform 3s;
   /* Animation */
   margin: 0 auto;
 }
