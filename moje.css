@@ -165,7 +165,7 @@ ol > li:before {
 .floatlogo {
   border-radius: 50%;
   transform: translatey(0px);
-  /*animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
   /*box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);*/
   overflow: hidden;
   width: 38%;
@@ -173,17 +173,17 @@ ol > li:before {
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-.blur-me {
+/*.blur-me {
   transition: filter 2s, transform 1s ease-in-out;
   filter: blur(1px);
   transform: scale(0.8);
 }
 
-/* The Transformation */
+/* The Transformation 
 .blur-me:hover {
   filter: blur(0);
   transform: scale(1);
-}
+}*/
 
 .ikonecky {
   width: 100%;
@@ -250,18 +250,18 @@ span a {
   transform: scale(1.3);
 }
 
-.zoom {
+/*.zoom {
   padding: 50px;
   background-color: transparent;
   transition: transform 3s;
-  /* Animation */
+  /* Animation 
   margin: 0 auto;
 }
 
 .zoom:hover {
   -ms-transform: scale(1.2);
-  /* IE 9 */
+  /* IE 9 
   -webkit-transform: scale(1.2);
-  /* Safari 3-8 */
+  /* Safari 3-8 
   transform: scale(1.3);
-}
+}*/
