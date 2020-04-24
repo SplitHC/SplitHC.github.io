@@ -14,6 +14,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
 
 @font-face {
@@ -115,7 +116,7 @@ ol > li:before {
 
 .velikost-curaka {
   width: auto;
-  height: 740px;
+  min-height: 108%;
 }
 
 .btn-rival {
