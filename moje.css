@@ -28,8 +28,8 @@ body {
 }
 
 .nadpisy {
-  font-family: jetbrains;
-  font-size: 78px;
+  font-family: brandon;
+  font-size: 88px;
   color: whitesmoke;
   /*background-color: rgba(0, 0, 0, 0.7);*/
   /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
@@ -98,6 +98,11 @@ ol>li:before {
 @font-face {
   font-family: "jetbrains";
   src: url("JETBRAINSMONO-REGULAR.TTF");
+}
+
+@font-face {
+  font-family: "brandon";
+  src: url("brandon.otf");
 }
 
 .bg-menu-nav {
