@@ -29,7 +29,7 @@ body {
 
 .nadpisy {
   font-family: brandon;
-  font-size: 88px;
+  font-size: 85px;
   color: whitesmoke;
   /*background-color: rgba(0, 0, 0, 0.7);*/
   /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
@@ -279,6 +279,10 @@ span a {
 
 .pt-logo {
   padding-top: 5rem;
+}
+
+.pt-tabulka {
+  padding-top: 8rem;
 }
 
 /* nove menu veci*/
