@@ -245,9 +245,9 @@ span a {
   cursor: default;
 }
 
-/*.card {
-  z-index: 3000;
-} */
+.card {
+  height: 500px;
+}
 
 /*Zoom In*/
 .column#zoomIn img {
