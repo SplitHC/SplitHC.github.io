@@ -78,6 +78,7 @@ ol > li:before {
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(4px);
   box-shadow: 7px 10px rgba(0, 0, 0, 0.15) !important;
+  padding-bottom: 10px;
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
 }
 
@@ -137,15 +138,20 @@ ol > li:before {
 
 .indicators-bot {
   position: relative;
-  top: 700;
+  top: 670;
   right: 0;
   left: 0;
   z-index: 0;
 }
 
 .carousel-inner {
-  overflow: auto;
+  overflow: hidden;
   overflow-x: hidden;
+  height: 600px;
+  padding-top: 50px;
+}
+.carousel-item {
+  height: 500px !important;
 }
 
 @keyframes float {
@@ -239,9 +245,9 @@ span a {
   cursor: default;
 }
 
-.card {
+/*.card {
   z-index: 3000;
-}
+} */
 
 /*Zoom In*/
 .column#zoomIn img {
@@ -256,24 +262,27 @@ span a {
   transform: scale(1.3);
 }
 
-/*.zoom {
-  padding: 50px;
-  background-color: transparent;
-  transition: transform 3s;
-  /* Animation 
+.zoom {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /*backdrop-filter: blur(4px);*/
+  transition: transform 2.5s; /* Animation */
   margin: 0 auto;
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.2);
-  /* IE 9 
-  -webkit-transform: scale(1.2);
-  /* Safari 3-8 
-  transform: scale(1.3);
-}*/
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  .carousel .carousel-inner {
+    /*prevent it from adding a white space between carousel and container elements*/
+    height: auto;
+  }
+}
+
 .card-img-top {
   width: 100%;
-  height: 20vw;
+  height: 15vw;
   object-fit: cover;
 }
 
