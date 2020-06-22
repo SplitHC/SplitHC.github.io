@@ -1,108 +1,277 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html lang="cs">
   <head>
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <script src="https://use.fontawesome.com/1112a355d4.js"></script>
-    <script
-      src="https://kit.fontawesome.com/cb406f7f9a.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      src="bootstrap-4.4.1-dist/css/bootstrap.css"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="moje.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <meta http-equiv="content-type" content="text/html" ;charset="UTF-8" />
-    <meta name="generator" content="PSPad editor, www.pspad.com" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>RivalRP Reborn</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
-    <div class="row">
-      <div class="col text-center pt-logo">
-        <img
-          src="logo_rivalrp2.png"
-          class="floatlogo img-fluid unselectable"
-          alt="logo"
-        />
-      </div>
-    </div>
-
-    <nav
-      class="navbar fixed-bottom justify-content-center navbar-expand-lg navbar-dark col-lg-9 col-md-9 col-sm-6 mx-auto"
-    >
-      <a class="navbar-brand" href="index.html">
-        <img
-          src="blip_40.png"
-          alt="Home"
-          style="width: 50px;"
-          data-toggle="tooltip"
-          title="Domů"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse text-center col-lg-10 row pt-3"
-        id="navbarNav"
-      >
-        <ul class="navbar-nav col-lg-12">
-          <li class="nav-item col-md-12 col-lg-3 col-sm-12">
-            <a
-              class="nav-link h3"
-              href="https://tinyurl.com/RivalRPpravidla"
-              target="_blank"
-              >Pravidla</a
-            >
-          </li>
-          <li class="nav-item col-md-12 col-lg-3 col-sm-12">
-            <a class="nav-link h3" href="Pripojeni.html">Jak se připojit?</a>
-          </li>
-          <li class="nav-item col-md-12 col-lg-3 col-sm-12">
-            <a
-              class="nav-link h3"
-              href="https://www.patreon.com/rivalroleplay_"
-              target="_blank"
-              >VIP</a
-            >
-          </li>
-          <li class="nav-item col-md-12 col-lg-3 col-sm-12">
-            <a class="nav-link h3" href="kontakty2.html" tabindex="0"
-              >Kontakty</a
-            >
-          </li>
-        </ul>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">RivalRP</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about"
+                >Jak se připojit?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projekt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Kontakt</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center pt-5">
+          <h1 class="mx-auto my-0 text-uppercase">RivalRP</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">
+            Hard RP, best RP.
+          </h2>
+          <a class="btn btn-info js-scroll-trigger" href="#about"
+            >Začni hrát!</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-justify" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="text-white mb-4">Jak se připojit?</h2>
+            <ol class="text-white-50">
+              <li class="mt-1">
+                Potřebujete GTA V. Nezaleží, jestli hru vlastníte na Steamu,
+                Epic Games nebo Social clubu.
+              </li>
+              <li class="mt-4">
+                Stáhněte a nainstalujte klienta
+                <a href="https://fivem.net/" target="_blank"><b>Fivem</b></a
+                >.
+              </li>
+              <li class="mt-4">
+                Připojte se na náš kanál v aplikaci
+                <a href="https://discord.gg/848xygt" target="_blank"
+                  ><b>Discord</b></a
+                >.
+              </li>
+              <li class="mt-4">
+                Na Discordu si v místnosti <b>#informace</b> přečtěte jak
+                pokračovat dále.
+              </li>
+              <li class="mt-4">
+                Ve hře komunikujeme pomocí TokoVoip. Návod ke zprovoznění
+                naleznete na našem Discordu v místnosti <b>#tokovoip-help</b>.
+              </li>
+
+              <li class="mt-4">
+                Vítejte na serveru. Hezky se bavte.
+              </li>
+              <p class="mt-5">
+                S případnými nejastnostmi a dotazy se obraťte na kohokoliv z
+                A-teamu nebo WL testerů.
+              </p>
+            </ol>
+          </div>
+
+          <img
+            class="img-fluid offset-lg-1 col-lg-3"
+            src="assets/img/connect.png"
+            alt="hacker"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+      <div class="container">
+        <!-- Featured Project Row-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="assets/img/bg-masthead.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Shoreline</h4>
+              <p class="text-black-50 mb-0">
+                Grayscale is open source and MIT licensed. This means you can
+                use it for any project - even commercial projects! Download it,
+                customize it, and publish your website!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Misty</h4>
+                  <p class="mb-0 text-white-50">
+                    An example of where you can put an image of a project, or
+                    anything else, along with a description.
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project Two Row-->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Mountains</h4>
+                  <p class="mb-0 text-white-50">
+                    Another example of a project with its respective
+                    description. These sections work well responsively as well,
+                    try this theme on a small screen!
+                  </p>
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Signup-->
+    <section class="signup-section" id="signup">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+            <form class="form-inline d-flex">
+              <input
+                class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
+                id="inputEmail"
+                type="email"
+                placeholder="Enter email address..."
+              />
+              <button class="btn btn-primary mx-auto" type="submit">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  4923 Market Street, Orlando FL
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="#!">hello@yourdomain.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">+1 (555) 902-8832</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+      <div class="container">Copyright © Your Website 2020</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
   </body>
 </html>
